@@ -1,0 +1,9 @@
+:root {
+    /* this css property invert the content colors */
+    filter: invert(100%);
+}
+
+#button {
+    /* to retain the content color, use this property again  */
+    filter: invert(100%);
+}
