@@ -14,7 +14,7 @@ button.addEventListener('click', (e) => {
     }
     else {
         // the next click event,  set white (default) theme to html page
-        document.getElementById('theme').href = ''
+        document.getElementById('theme').href = './css/style.css'
         // change button text to dark mode 
         button.innerText = buttonText;
     }
